@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xx-RAJ-xX/Ecommerce-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xx-RAJ-xX/Ecommerce-website/issues"
+  },
+  "homepage": "https://github.com/Xx-RAJ-xX/Ecommerce-website#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.5",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.15",
+    "validator": "^13.6.0"
+  }
+}
